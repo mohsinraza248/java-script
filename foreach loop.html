@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+    <head>
+        <title>Java script foreach loop exaple</title>
+    </head>
+    <body>
+        <div id="demo">
+
+        </div>
+        <div id="demo2">
+
+        </div>
+
+    </body>
+    <script>
+        var fruits = ["apple","orange","cherry"];
+        fruits.forEach(myFunction);
+        function myFunction(item,index)
+        {
+            document.getElementById("demo").innerHTML += item +"<br>";
+
+        }
+
+        var countries = ["india","china","japan"];
+        countries.forEach(Function2);
+
+        function Function2(item,index)
+        {
+            document.getElementById("demo2").innerHTML += item + "</br>";
+        }
+    </script>
+</html>
